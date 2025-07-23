@@ -31,7 +31,7 @@ const Footer = () => {
 
       {/* Bottom Text */}
       <div className="border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Hoshi. All rights reserved.
+        © {new Date().getFullYear()} Hoshi.
       </div>
     </footer>
   );

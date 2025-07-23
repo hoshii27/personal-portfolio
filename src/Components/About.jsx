@@ -23,8 +23,10 @@ const About = () => {
             Who I Am?
           </h3>
           <p className="text-gray-300 text-base leading-relaxed mb-4">
-            I am a passionate developer focused on crafting efficient, scalable, and visually appealing web applications. 
-            With expertise in modern frameworks and a love for clean, maintainable code, I strive to build solutions that deliver exceptional user experiences.
+            I'm a passionate student developer with a strong interest in building efficient and visually engaging web 
+            applications. While I'm still gaining experience, I'm actively learning modern frameworks and best practices 
+            to write clean, maintainable code. I'm committed to continuous growth and excited to take on new challenges 
+            that help me improve and create meaningful user experiences.
           </p>
           <a
             href="#projects"

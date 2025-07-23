@@ -4,7 +4,7 @@ import profileImg from "../assets/profileImg.jpg";
 const Home = () => {
   return (
     <section
-      id="#home"
+      id="home"
       className="min-h-screen flex flex-col justify-center items-center lg:flex-row-reverse gap-9 lg:gap-15 "
     >
       <div className="text-center z-10 px-4">
@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div className="text-center font-mono z-10 px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl lg:max-w[500px] font-semibold mb-6 px-1 text-black leading-tight">
-          Tanjro
+          Andy Tan Jr.
         </h1>
         <p className="text-black-300 text-lg mb-8 max-w-lg mx-auto">
           I am Andy Tan JR, a third-year BSIT student from San Pablo Colleges.

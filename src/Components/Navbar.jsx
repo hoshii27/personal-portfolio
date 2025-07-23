@@ -14,13 +14,13 @@ const Navbar = () => {
         <div className="text-center md:text-left mb-4 md:mb-0">
           <a href="#hero">
             <h1 className="text-4xl font-extrabold text-white mb-2 tracking-wide cursor-pointer">
-              HoshiNae.
+              Hoshi.
             </h1>
           </a>
         </div>
         <nav className="hidden md:flex">
           <ul className="flex gap-6 text-white font-semibold text-lg">
-            <li><a href="#hero" className="hover:text-[#00df9a] transition">Home</a></li>
+            <li><a href="#home" className="hover:text-[#00df9a] transition">Home</a></li>
             <li><a href="#about" className="hover:text-[#00df9a] transition">About</a></li>
             <li><a href="#skills" className="hover:text-[#00df9a] transition">Skills</a></li>
             <li><a href="#projects" className="hover:text-[#00df9a] transition">Projects</a></li>
@@ -37,7 +37,7 @@ const Navbar = () => {
               : 'fixed left-[-100%]'
           }
         >
-          <li><a href="#hero" className="hover:text-[#00df9a] transition" onClick={handleNav}>Home</a></li>
+          <li><a href="#home" className="hover:text-[#00df9a] transition" onClick={handleNav}>Home</a></li>
           <li><a href="#about" className="hover:text-[#00df9a] transition" onClick={handleNav}>About</a></li>
           <li><a href="#skills" className="hover:text-[#00df9a] transition" onClick={handleNav}>Skills</a></li>
           <li><a href="#projects" className="hover:text-[#00df9a] transition" onClick={handleNav}>Projects</a></li>
